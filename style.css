@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+    font-weight: bold;
+    color: #000;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.a {
+    color: inherit;
+}
+
+.nav-bar {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+}
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.nav-bar a {
+    border-style: solid;
+    border-color: black;
+    color: rgb(208, 208, 208);
+    border-width: 2px;
+    border-radius: 10px;
+    position: sticky;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-bar a:hover {
+    color: rgb(30, 30, 30);
+    background-color: rgb(208, 208, 208);
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-bar li {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.sublist li {
+    display: none;
+    position: relative;
+    top: 0px;
+}
+
+.nav-bar li:hover .sublist>li {
+    display: block;
+    width: 100%;
+    top: 0px;
+}
+
+.sublist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+}
+
+.inphead {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.inp {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    border-radius: 5px;
+    width: 98%;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-flex;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.out {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 98%;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-flex;
+    margin: 10px;
+    background-color: rgb(30, 30, 30);
+    text-align: right;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.submit2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d3d3d3;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    width: 125px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.submit2:hover {
+    transition: 0.5s;
+    color: rgb(30, 30, 30);
+    background-color: rgb(255, 255, 255);
+}
+
+.outtxt {
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+/* MAIN CSS STARTS HERE */
