@@ -12,4 +12,11 @@ Another key benefit of the CP Helper is that it can help you to identify pattern
 
 # Issues I faced
 For large values, integer overflow was happening So I had to use BigInt Class of Javascript to store variables.
-In mobile devices, Sticky position was not working for mobile, so I fixed it using Media Query in CSS
+<br>
+In mobile devices, Sticky position was not working, so I fixed it using Media Query in CSS
+<br>
+
+# New Things I learned
+Using BigInt Class in Javascript <br>
+Using Media Queries in CSS <br>
+DOM Manipulation in Javascript <br>
