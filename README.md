@@ -11,8 +11,7 @@ This can save you a lot of time and effort, especially when solving challenging 
 Another key benefit of the CP Helper is that it can help you to identify patterns and trends in test cases.
 
 # Issues I faced
-* For large values, integer overflow was happening So I had to use BigInt Class of Javascript to store variables.
-<br>
+* For large values, integer overflow was happening So I had to use BigInt Class of Javascript to store variables. 
 * In mobile devices, Sticky position was not working, so I fixed it using Media Query in CSS
 <br>
 
